@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+header img {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.search .fa-bell {
+    font-size: 20px;
+    color: red;
+}
+
+.search img {
+    border-radius: 100%;
+    border: 1px solid black;
+}
