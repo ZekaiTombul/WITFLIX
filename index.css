@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -44,7 +50,7 @@ nav a:hover {
 
 main {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     
 }
@@ -52,14 +58,14 @@ main {
 .hero-content {
     background-color: lightgray;
     padding: 20px 30px;
-    width: 60%;
+    width: 100%;
     border-radius: 10px;
 }
 
 .hero-content h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
-    color: #000;
+    color: black;
 }
 
 .movie-info {
@@ -76,17 +82,17 @@ main {
 }
 
 .user-rating .fa-star {
-    color: #ffc107;
+    color: orange;
 }
 
 .imdb-rating {
     font-weight: bold;
-    color: #555;
+    color: black;
 }
 
 .maturity-rating {
-    background-color: #e50914;
-    color: #fff;
+    background-color: red;
+    color: white;
     padding: 3px 7px;
     border-radius: 5px;
     font-weight: bold;
@@ -94,18 +100,16 @@ main {
 
 .duration {
     font-size: 14px;
-    color: #555;
+    color: black;
 }
 
-/* Film Açıklaması */
 .hero-content p {
     margin: 15px 0;
-    line-height: 1.6;
+    line-height: 1.5rem;
     font-size: 1rem;
-    color: #666;
+    color: black;
 }
 
-/* Detay Listesi */
 .movie-details {
     list-style: none;
     padding: 0;
@@ -113,33 +117,31 @@ main {
 }
 
 .movie-details li {
-    margin-bottom: 8px;
-    font-size: 0.95rem;
-    color: #333;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: black;
 }
 
 .movie-details span {
     font-weight: bold;
-    color: #000;
+    color: black;
 }
 
-/* Buton */
+
 .btn {
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: left;
 }
 
 .btn-lg {
     padding: 10px 20px;
     font-size: 1rem;
-    color: #fff;
-    background-color: #e50914;
+    color: white;
+    background-color: red;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
 .btn-lg:hover {
-    background-color: #b00710;
+    background-color: darkred;
 }
