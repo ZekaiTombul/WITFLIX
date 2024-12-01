@@ -29,7 +29,7 @@ nav a {
 }
 
 nav a:hover {
-    color: blue;
+    color: red;
 }
 
 .search {
@@ -206,4 +206,54 @@ main {
 
 .cta-button:hover {
     background-color: darkred;
+}
+
+footer {
+    background-color: black; 
+    color: white; 
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer nav {
+    display: flex;
+    gap: 20px; 
+    flex-wrap: nowrap;
+}
+
+footer nav a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 0.8rem; 
+    font-weight: bold; 
+}
+
+footer nav a:hover {
+    color: red; 
+}
+
+footer p.copyright {
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: gray; 
+    line-height: 1.5;
+    max-width: 400px;
+}
+
+footer div:nth-child(2),
+footer div:nth-child(3) {
+    text-align: center;
+}
+
+footer div img {
+    height: 40px; 
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+footer div:nth-child(2) img,
+footer div:nth-child(3) img {
+    display: inline-block;
 }
