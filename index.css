@@ -1,7 +1,8 @@
-body {
+html, body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    height: 100%;
 }
 
 header {
@@ -52,6 +53,7 @@ main {
     display: flex;
     justify-content:center;
     align-items: center;
+    flex-grow: 1;
 }
 
 .hero-content {
@@ -146,7 +148,6 @@ main {
     background-color: darkred;
 }
 
-/* Movies Section */
 .movies-section {
     margin: 40px auto;
     padding: 0 20px;
@@ -215,6 +216,7 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 0;
 }
 
 footer nav {
@@ -261,6 +263,11 @@ footer div:nth-child(3) img {
 }
 
 @media (max-width: 390px) {
+
+    html, body {
+        height: auto;
+    }
+
     header {
         flex-direction: column;
         padding: 10px;
@@ -286,7 +293,7 @@ footer div:nth-child(3) img {
     }
 
     .hero-content {
-        padding: 15px 20px;
+        padding: 10px 20px;
         width: 100%;
         margin-top: 20px;
         border-radius: 10px;
@@ -312,6 +319,7 @@ footer div:nth-child(3) img {
     .movies-slider {
         flex-direction: column;
         gap: 20px;
+        flex-wrap: wrap;
     }
 
     .movie-card-1,
@@ -330,6 +338,8 @@ footer div:nth-child(3) img {
         flex-direction: column;
         text-align: center;
         padding: 10px;
+        margin-top: 0;
+        padding-bottom: 0;
     }
 
     footer nav {
