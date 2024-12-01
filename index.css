@@ -41,3 +41,105 @@ nav a:hover {
     border-radius: 100%;
     border: 1px solid black;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero-content {
+    background-color: lightgray;
+    padding: 20px 30px;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.movie-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.user-ratings {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-rating .fa-star {
+    color: #ffc107;
+}
+
+.imdb-rating {
+    font-weight: bold;
+    color: #555;
+}
+
+.maturity-rating {
+    background-color: #e50914;
+    color: #fff;
+    padding: 3px 7px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.duration {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Film Açıklaması */
+.hero-content p {
+    margin: 15px 0;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Detay Listesi */
+.movie-details {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.movie-details li {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.movie-details span {
+    font-weight: bold;
+    color: #000;
+}
+
+/* Buton */
+.btn {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.btn-lg {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-lg:hover {
+    background-color: #b00710;
+}
