@@ -172,7 +172,7 @@ main {
     flex: 1; 
     background-color: lightgray;
     border-radius: 10px;
-    text-align: center;
+    text-align: left;
     padding: 20px;
 }
 
@@ -182,6 +182,16 @@ main {
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: 15px;
+}
+
+.movie-card-1 span,
+.movie-card-2 span,
+.movie-card-3 span {
+    display: block;
+    font-size: 0.6rem;
+    color: black;
+    margin: 5px 0;
+    font-weight: bold;
 }
 
 .cta-button {
