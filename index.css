@@ -9,7 +9,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid black;
 }
 
 header img {
@@ -52,7 +52,6 @@ main {
     display: flex;
     justify-content:center;
     align-items: center;
-    
 }
 
 .hero-content {
@@ -140,8 +139,61 @@ main {
     background-color: red;
     border: none;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 .btn-lg:hover {
+    background-color: darkred;
+}
+
+/* Movies Section */
+.movies-section {
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+.movies-slider {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.movie-card-1,
+.movie-card-2,
+.movie-card-3 {
+    flex: 1; 
+    background-color: lightgray;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.movie-card-1 p,
+.movie-card-2 p,
+.movie-card-3 p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.cta-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 0.5rem;
+    font-weight: bold;
+}
+
+.cta-button:hover {
     background-color: darkred;
 }
